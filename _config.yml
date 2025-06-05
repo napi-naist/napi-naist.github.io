@@ -6,7 +6,7 @@ copyright:            ""
 description:          "NAIST Project for Interns (NAPI)"
 baseurl:              ""
 url:                  ""
-favicon:              "assets/images/favicon.png"
+favicon:              "/assets/images/favicon.png"
 content_width:        "920px"
 sitemap:              false
 
@@ -19,6 +19,9 @@ night_mode: "off"
 # Date format
 yat:
   date_format:  "%b %d, %Y"
+
+# Permalink
+permalink: /testimonials/:title
 
 # Pagination setting
 paginate: 5

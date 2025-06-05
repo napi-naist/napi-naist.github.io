@@ -105,8 +105,13 @@ h1, h2, h3, h4, h5, h6 {
 /**
  * Links
  */
+.link-text {
+  font-weight: bold;
+}
+
+
 a {
-  color: $brand-color;
+  color: #007bff;
   text-decoration: none;
 
   &:hover {
@@ -313,4 +318,9 @@ table {
 ::-webkit-selection {
   color: $selection-color;
   background-color: $selection-background-color;
+}
+
+.deadline {
+  font-weight: bold;
+  color: #d9534f;
 }

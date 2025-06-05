@@ -1,14 +1,17 @@
 ---
-layout: framework
-sidebar: category-list
+layout: default
 ---
 
-<div class="articles">
-  {% if page.banner == nil %}
-    {% assign banner = page.title %}
-  {% endif %}
+<div class="framework">
+  <section class="main">
+    <div class="articles">
+      {% if page.banner == nil %}
+        {% assign banner = page.title %}
+      {% endif %}
 
-  {{ content }}
+      {{ content }}
 
-  {% include views/pagination.html %}
+      {% include views/pagination.html %}
+    </div>
+  </section>
 </div>

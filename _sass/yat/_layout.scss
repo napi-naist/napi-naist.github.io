@@ -190,23 +190,12 @@ html {
  */
 .site-footer {
   @include relative-font-size(1.0);
-  color: unset;
-  background-color: transparent;
   text-align: left;
   transition: background-color 0.2s;
 
   .site-footer-inner {
     transition: border-top 0.2s;
     padding: $spacing-unit * 1.8 0;
-  }
-
-  a {
-    $a-color: $brand-color;
-    color: $a-color;
-
-    &:hover {
-      color: lighten($a-color, 10%);
-    }
   }
 }
 
