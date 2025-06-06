@@ -5,10 +5,7 @@ layout: default
 <div class="framework">
   <section class="main">
     <div class="articles">
-      {% if page.banner == nil %}
-        {% assign banner = page.title %}
-      {% endif %}
-
+      
       {{ content }}
 
       {% include views/pagination.html %}

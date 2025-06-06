@@ -12,9 +12,15 @@
             | replace: '(cleft)', '<span class="copyleft">&copy;</span>'
         -%}
       <div>{{ copyright }}</div> -->
-      <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
+      <div>
+        <span>{{ site.description }} {{ site.year }}</span><br>
+        <span>8916-5 Takayamacho Ikoma Nara 630-0192 Japan </span><br>
+        <span><a href="mailto:{{ site.email }}">{{ site.email }}</a></span>
+      </div>
+
+      <!-- <div>Powered by <a title="Jekyll is a simple, blog-aware, static site
       generator." href="https://jekyllrb.com/" style="color: black;">Jekyll</a> &amp; <a title="Yat, yet
-      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat" style="color: black;">Yat Theme</a>.</div>
+      another theme." href="https://github.com/jeffreytse/jekyll-theme-yat" style="color: black;">Yat Theme</a>.</div> -->
       <!-- <div class="footer-col rss-subscribe">Subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></div> -->
     </div>
   </div>

@@ -1,0 +1,12 @@
+participating_labs:
+  - program_name:   "Applied Artificial Intelligence and Robotics"
+    labs:
+    - name:         "Mathematical Informatics"
+      website:      "https://isw3.naist.jp/Research/ai-mi-en.html"
+      projects:
+        - Image processing for materials informatics
+        - Factor modeling with Twitter-derived indicators
+    - name:         "Interactive Media Design"
+      website:      "https://isw3.naist.jp/Research/mi-imd-en.html"
+      projects:
+        - Design and implementation of blended human-robot interaction for music therapy using mixed reality

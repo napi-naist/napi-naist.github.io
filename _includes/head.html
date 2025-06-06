@@ -6,9 +6,9 @@
   {%- seo title=false -%}
   <title>
     {% if page.title %}
-      {{ site.title }} | {{ page.title }}
+      {{ site.title }} {{ site.year }} | {{ page.title }}
     {% else %}
-      {{ site.title }}
+      {{ site.title }} {{ site.year }}
     {% endif %}
   </title>
   <link rel="icon" href="{{ site.favicon }}">

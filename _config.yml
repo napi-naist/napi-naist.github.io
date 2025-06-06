@@ -1,30 +1,16 @@
 # Website metadata
-title:                "NAPI 2026"
-email:                "napi@is.naist.jp"
-author:               ""
+title:                "NAPI"
+year:                 "2026"
+email:                "apps@napi-naist.jp"
+author:               "Brian Godwin Lim"
 copyright:            ""
 description:          "NAIST Project for Interns (NAPI)"
-baseurl:              ""
-url:                  ""
+baseurl:              "/"
+url:                  "https://napi-naist.github.io"  # Change to domain
 favicon:              "/assets/images/favicon.png"
 content_width:        "920px"
 sitemap:              false
-
-# Debugging mode
-debug:  false
-
-# Night/Dark mode
-night_mode: "off"
-
-# Date format
-yat:
-  date_format:  "%b %d, %Y"
-
-# Permalink
-permalink: /testimonials/:title
-
-# Pagination setting
-paginate: 5
+debug:                false
 
 # Color settings
 theme_color:          "#000000"
@@ -32,48 +18,19 @@ brand_color:          "#ffffff"
 selection:
   color:              "#bbb"
   background_color:   "#000000"
-click_to_top:
-  light:
-    background_color: "#000000"
-    color:            "#454545"
-  dark:
-    background_color: "#ffffff"
-    color:            "#bbb"
-
-# Language
-lang:       en
-translate_langs:
-  - lang:   en
-    img:    https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
-    text:   English
-
-  - lang:   ja
-    img:    https://cdn.countryflags.com/thumbs/japan/flag-400.png
-    text:   Japanese
-
-# Code badge setting
-# You can enable or disable the code badge and so on
-# code_badge:
-#   enabled: "true"
-#   color: "#fff"
-#   background_color: "#ff4e00"
-#   text_transform: "uppercase"  # ("uppercase", "lowercase", "capitalize")
 
 # Website header
 header_transparent: true
 header_pages:
   - index.html
-  - apply.html
   - about.html
+  - stories.html
+  - apply.html
   - labs.html
   - faq.html
 
 # Banner default settings
 banner:
-  # video:              null
-  # loop:               true
-  # volume:             0
-  # start_at:           0
   image:              "assets/images/home.jpg"
   opacity:            0.5
   background:         "#000000"
@@ -82,17 +39,29 @@ banner:
   heading_style:      "font-weight: bold"
   subheading_style:   "font-weight: bold"
 
-# Photo previewer settings (PhotoSwipe 5)
-# the options please refer to: https://photoswipe.com/options/
-# photo_previewer:
-#  gallery: "section.main"
-#  children: "a.photo-swipe"
-#  bgOpacity: 0.8
-#  padding:
-#    top: 20
-#    bottom: 40
-#    left: 100
-#    right: 100
+# Testimonials settings
+permalink:            "/stories/:title"
+paginate:             5
+yat:
+  date_format:        "%b %d, %Y"
+
+# Code badge setting
+code_badge:
+  enabled:          "true"
+  color:            "#fff"
+  background_color: "#ff4e00"
+  text_transform:   "uppercase"
+
+# Photo previewer settings (PhotoSwipe 5), refer to: https://photoswipe.com/options/
+photo_previewer:
+ gallery:           "section.main"
+ children:          "a.photo-swipe"
+ bgOpacity:         0.8
+ padding:
+   top:             20
+   bottom:          40
+   left:            100
+   right:           100
 
 # Build settings
 highlighter: none

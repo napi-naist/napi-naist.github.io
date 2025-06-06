@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% assign data = site.data.labs %}
+
+{%- for program in data.participating_labs -%}
+    <h1>{{ program.program_name }}</h1>
+    <br>
+    {%- for lab in program.labs -%}
+        <h2><a href="{{ lab.website }}" target="_blank">{{ lab.name }}</a></h2>
+        <ul>
+        {%- for project in lab.projects -%}
+          <li>{{ project }}</li>
+        {%- endfor -%}
+        </ul>
+    {%- endfor -%}
+{%- endfor -%}
