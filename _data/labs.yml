@@ -1,6 +1,10 @@
 participating_labs:
   - program_name: "Computer Science and Artificial Intelligence"
     labs:
+      - name: "Ubiquitous Computing Systems"
+        website: "https://isw3.naist.jp/Research/cs-ubi-en.html"
+        projects:
+          - Implementing Small Language Models on Edge Devices for Smart IoT
       - name: "Large-Scale Systems Management"
         website: "https://isw3.naist.jp/Research/ai-lsm-en.html"
         projects:
