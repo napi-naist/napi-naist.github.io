@@ -1,37 +1,21 @@
 participating_labs:
-  - program_name: "Division of Information Science"
+  - program_name: "Computer Science and Artificial Intelligence"
     labs:
-      - name: "Mathematical Informatics"
-        website: "https://isw3.naist.jp/Research/ai-mi-en.html"
+      - name: "Large-Scale Systems Management"
+        website: "https://isw3.naist.jp/Research/ai-lsm-en.html"
         projects:
-          - Latent Trajectory Modeling and Language-Based Feedback for Human Motion Correction
-          - Exploring Identifiable Representations in Complex Data by Extending Nonlinear ICA
-      - name: "Interactive Media Design"
-        website: "https://isw3.naist.jp/Research/mi-imd-en.html"
-        projects:
-          - Exploring How Micro-Expressions Impact Empathy in Augmented/Virtual Reality
-      - name: "Information Security Engineering"
-        website: "https://isw3.naist.jp/Research/cs-ise-en.html"
-        projects:
-          - Side-channel Analysis on Cryptographic Module
-      - name: "Biomedical Imaging Intelligence"
-        website: "https://isw3.naist.jp/Research/ai-bii-en.html"
-        projects:
-          - "Predicting 3D from 2D Image: Intelligent X-ray Image Analysis"
-      - name: "Human Robotics"
-        website: "https://isw3.naist.jp/Research/ai-huro-en.html"
-        projects:
-          - Development of a Soft Sensor for Soft Robotic Grippers
-          - Development of a Path Planning Method based on ANCF to Minimize Tether Tension for Underwater Vehicles
+          - Privacy-preserving Smart Contract Development with ZoKrates
       - name: "Software Design and Analysis"
         website: "https://isw3.naist.jp/Research/cs-sd-en.html"
         projects:
           - Studying the Efficiency of Agentic AI Programming Tools and Their Impact on Software Quality
           - Maintenance and Security of Software Ecosystems
-      - name: "Large-Scale Systems Management"
-        website: "https://isw3.naist.jp/Research/ai-lsm-en.html"
+      - name: "Information Security Engineering"
+        website: "https://isw3.naist.jp/Research/cs-ise-en.html"
         projects:
-          - Privacy-preserving Smart Contract Development with ZoKrates
+          - Side-channel Analysis on Cryptographic Module
+  - program_name: "Applied Artificial Intelligence and Robotics"
+    labs:
       - name: "Human-AI Interaction"
         website: "https://isw3.naist.jp/Research/mi-hai-en.html"
         projects:
@@ -42,3 +26,21 @@ participating_labs:
         projects:
           - Multilingual Symptom Detection on Social Media
           - City Image Extraction from Social Media Text and Street Images
+      - name: "Interactive Media Design"
+        website: "https://isw3.naist.jp/Research/mi-imd-en.html"
+        projects:
+          - Exploring How Micro-Expressions Impact Empathy in Augmented/Virtual Reality
+      - name: "Human Robotics"
+        website: "https://isw3.naist.jp/Research/ai-huro-en.html"
+        projects:
+          - Development of a Soft Sensor for Soft Robotic Grippers
+          - Development of a Path Planning Method based on ANCF to Minimize Tether Tension for Underwater Vehicles
+      - name: "Mathematical Informatics"
+        website: "https://isw3.naist.jp/Research/ai-mi-en.html"
+        projects:
+          - Latent Trajectory Modeling and Language-Based Feedback for Human Motion Correction
+          - Exploring Identifiable Representations in Complex Data by Extending Nonlinear ICA
+      - name: "Biomedical Imaging Intelligence"
+        website: "https://isw3.naist.jp/Research/ai-bii-en.html"
+        projects:
+          - "Predicting 3D from 2D Image: Intelligent X-ray Image Analysis"

@@ -9,15 +9,17 @@ banner:
     height:     "360px"
 ---
 
+{% assign info = site.data.info %}
+
 <h1>Application Procedure</h1>
 
 <p>Follow the steps below to formally apply to the NAPI program</p>
 <ol>
     <li>Check if you are <a href="/faq#eligibility"><span class="link-text">eligible</span></a> to apply</li>
-    <li>Attend the NAPI Information Session on <span class="deadline">October 6, 2025</span> (Optional but recommended)</li>
+    <li>Attend the NAPI Information Session at ADMU on <span class="deadline">{{ info.information_session }}</span> (optional but recommended)</li>
     <li>Choose a <a href="/labs"><span class="link-text">laboratory</span></a></li>
-    <li>Accomplish the <a href="#"><span class="link-text">Recommender Information Form</span></a> (Deadline: <span class="deadline">October 17, 2025</span>)</li>
-    <li>Accomplish and compile the <a href="#"><span class="link-text">Application Package</span></a> and upload to this link (Deadline: <span class="deadline">October 24, 2025</span>)</li></li>
+    <li>Accomplish the <a href="{{ info.recommender_link }}" target="_blank"><span class="link-text">Recommender Information Form</span></a> by <span class="deadline">{{ info.recommender_deadline }}</span></li>
+    <li>Accomplish and compile the <a href="{{ info.application_link }}" target="_blank"><span class="link-text">Application Package</span></a> and upload to the <a href="{{ info.submission_link }}" target="_blank"><span class="link-text">Submission Portal</span></a> by <span class="deadline">{{ info.application_deadline }}</span></li></li>
     <ul>
         <li>Application form</li>
         <li>Curriculum vitae in specified format</li>
@@ -27,6 +29,7 @@ banner:
 </ol>
 
 <br><br>
+
 <h3>Handling of Personal Information</h3>
 
 <p>The collected documents, including the application form, CV, passport copy, and certificate of enrollment or graduation, will be used solely for the purposes of screening and processing applications for this program. All personal information will be handled with strict confidentiality and in accordance with relevant data protection regulations. Documents will not be shared with any third parties unrelated to the selection process and will be securely disposed of after use.</p>

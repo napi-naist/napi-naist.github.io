@@ -1,12 +1,14 @@
 ---
 layout: default
-title: null
+title: Home
 heading: "NAIST Project for Interns (NAPI)"
 subheading: "Internship Dates: January 13 to 30, 2026"
 permalink: "/"
 banner:
   image: "/assets/images/banners/home.jpg"
 ---
+
+{% assign info = site.data.info %}
 
 <h2>What is NAIST?</h2>
 <p>
@@ -32,17 +34,21 @@ banner:
 <h2>Important Dates</h2>
 <ul>
   <li>
-    Call for Applications: <span class="deadline">August 1, 2025</span>
+    Call for Applications: <span class="deadline">{{ info.call_for_applications }}</span>
   </li>
   <li>
-    NAPI Information Session at ADMU:
-    <span class="deadline">October 1, 2025</span>
+    NAPI Information Session at ADMU: <span class="deadline">{{ info.information_session_admu }}</span>
   </li>
   <li>
-    Recommender Information Deadline:
-    <span class="deadline">October 17, 2025</span>
+    NAPI Visit to DLSU: <span class="deadline">{{ info.information_session_dlsu }}</span>
   </li>
   <li>
-    Application Package Deadline: <span class="deadline">October 24, 2025</span>
+    NAPI Visit to UP Diliman: <span class="deadline">{{ info.information_session_upd }}</span>
+  </li>
+  <li>
+    Recommender Information Deadline: <span class="deadline">{{ info.recommender_deadline }}</span>
+  </li>
+  <li>
+    Application Package Deadline: <span class="deadline">{{ info.application_deadline }}</span>
   </li>
 </ul>

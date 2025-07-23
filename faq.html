@@ -9,6 +9,8 @@ banner:
   height: "360px"
 ---
 
+{% assign info = site.data.info %}
+
 <h2 id="eligibility">Who can apply for the NAPI Program?</h2>
 <p>
   Bona fide students from any course under the Ateneo de Manila University
@@ -27,13 +29,13 @@ banner:
 
 <h2>When will the results be released?</h2>
 <p>
-  Results will be released around <span class="emphasize">November 2025</span>.
+  Results will be released around <span class="emphasize">{{ info.results_release }}</span>.
 </p>
 
 <br />
 
 <h2>How many interns will be accepted?</h2>
-<p>At most <span class="emphasize">six interns</span> will be accepted.</p>
+<p>At most <span class="emphasize">{{ info.interns_accepted }} interns</span> will be accepted.</p>
 
 <br />
 
