@@ -5,7 +5,9 @@
   <meta name="google-translate-customization" content="108d9124921d80c3-80e20d618ff053c8-g4f02ec6f3dba68b7-c">
   {%- seo title=false -%}
   <title>
-    {% if page.title %}
+    {% if page.title == "Home" %}
+      {{ site.title }} {{ site.year }}
+    {% elsif page.title %}
       {{ site.title }} {{ site.year }} | {{ page.title }}
     {% else %}
       {{ site.title }} {{ site.year }}
