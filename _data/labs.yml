@@ -44,6 +44,7 @@ participating_labs:
         projects:
           - Latent Trajectory Modeling and Language-Based Feedback for Human Motion Correction
           - Exploring Identifiable Representations in Complex Data by Extending Nonlinear ICA
+          - On Expressive Message-Passing Architectures for Financial Network Anomaly Detection
       - name: "Biomedical Imaging Intelligence"
         website: "https://isw3.naist.jp/Research/ai-bii-en.html"
         projects:
